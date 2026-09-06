@@ -23,6 +23,9 @@ modules = Wiki.QuantumCircuitObs
         , Wiki.DihedralPhaseChannels
         , Wiki.KitaevToricCode
         , Wiki.DeutschJozsa
+        , Wiki.QuantumErrorMitigation
+        , Wiki.GaloisCircuitOptimization
+        , Wiki.HolographicQubitBound
         , Wiki.ScaleTransforms
         , Wiki.Reflect.QuantumAuditor
 

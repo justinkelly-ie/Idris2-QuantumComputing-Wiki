@@ -23,12 +23,12 @@ import QuickCheck
 ||| Pauli-X Operator acting on Dihedron phase (Bit Swap on Cb)
 public export
 pauliXPhase : Dihedron -> Dihedron
-pauliXPhase (MkDihedron a b c d) = MkDihedron b a c d
+pauliXPhase (MkDihedronVal a b c d) = MkDihedron b a c d
 
 ||| Pauli-Z Operator acting on Dihedron phase (Phase Flip on Cb)
 public export
 pauliZPhase : Dihedron -> Dihedron
-pauliZPhase (MkDihedron a b c d) = MkDihedron a (-b) c d
+pauliZPhase (MkDihedronVal a b c d) = MkDihedron a (-b) c d
 
 ||| Property 1: Pauli-X and Pauli-Z Anti-Commutation (XZ = -ZX)
 public export

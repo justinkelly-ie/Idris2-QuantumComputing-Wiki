@@ -23,7 +23,7 @@ import QuickCheck
 ||| Unitary Hadamard gate over Dihedron phase
 public export
 gateDihedronH : Dihedron -> Dihedron
-gateDihedronH (MkDihedron a b c d) =
+gateDihedronH (MkDihedronVal a b c d) =
   MkDihedron (a + b) (a - b) c d
 
 ||| Property 1: Hadamard Gate Involution (H² = 2·I)

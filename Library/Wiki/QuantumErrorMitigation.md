@@ -26,7 +26,7 @@ import QuickCheck
 ||| Filters out the nilpotent Green noise component (Cg) from a noisy Dihedral phase.
 public export
 mitigateGreenNoise : Dihedron -> Dihedron
-mitigateGreenNoise (MkDihedron a b c d) =
+mitigateGreenNoise (MkDihedronVal a b c d) =
   MkDihedron a b c 0
 
 ||| Property 1: Error mitigation restores pure Blue/Red phase sub-space (d = 0).

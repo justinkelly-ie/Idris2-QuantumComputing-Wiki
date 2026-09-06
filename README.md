@@ -13,7 +13,10 @@ Literate Observation Specifications & Executable Verification Suite for Discrete
 - **Part 7**: Dihedral Subalgebra Phase Channels ($C_b, C_r, C_g$)
 - **Part 8**: Kitaev Toric Code & Topological Anyon Braiding
 - **Part 9**: Deutsch-Jozsa Quantum Oracle Supremacy
-- **Part 10**: Compile-Time Elaborator Reflection Quantum Macro Audits
+- **Part 10**: Discrete Dihedral $C_g$ Nilpotent Quantum Error Mitigation
+- **Part 11**: Galois Adjunction ($f_* \dashv f^*$) Monotonic Circuit Optimization
+- **Part 12**: Holographic Quantum Boundary Area Capacity ($\text{Area} = 54$)
+- **Part 13**: Compile-Time Elaborator Reflection Quantum Macro Audits
 
 ## Run Verification
 
